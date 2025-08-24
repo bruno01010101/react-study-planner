@@ -6,5 +6,3 @@ export const store = configureStore({
 		tasks: taskReducer,
 	},
 });
-
-console.log(store.getState());
