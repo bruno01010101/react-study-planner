@@ -12,7 +12,7 @@ const themeSlice = createSlice({
 			state.theme = action.payload;
 		},
 		toggleTheme: (state) => {
-			state.theme = state.theme.theme === 'dark' ? 'light' : 'dark';
+			state.theme = state.theme === 'dark' ? 'light' : 'dark';
 		},
 	},
 });
